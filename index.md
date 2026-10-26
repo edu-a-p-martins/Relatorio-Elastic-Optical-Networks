@@ -75,6 +75,13 @@ Todavia, a combinação das restrições de contiguidade e continuidade sob trá
 
 ## 4. Controle, Design e Gerenciamento da Rede
 
+É necessário, no gerenciamento de Redes Ópticas Elásticas, mecanismos que sejam capazes de distribuir os recursos da rede de maneira eficiente, atendendo às diferentes demandas de transmissão.Nesse sentido, o sistema de controle deve selecionar rotas adequadas, determinar a quantidade de slots de frequência necessária para cada conexão e configurar os equipamentos ópticos, considerando os princípios físicos da fibra ótica, como explicado na seção anterior.
+
+É importante notar que essas decisões não se limitam a disponibilidade de espectro, mas também consideram as limitações físicas do enlace e a qualidade do sinal. Além disso, estratégias de alocação e desfragmentação espectral podem ser utilizadas para reduzir o desperdício de recursos e permitir o estabelecimento de novas conexões.
+
+Uma abordagem notável para esse gerenciamento é a Rede Definida por Software (SDN: Software-Defined Networking), que permite centralizar parte das decisões de controle em um controlador programável. Dessa forma, é possível acompanhar o estado dos enlaces, monitorar a utilização do espectro e automatizar a configuração dos equipamentos. O monitoramento contínuo também auxilia na identificação de falhas e na adaptação da rede a eventuais mudanças de tráfego.
+
+Essa combinação de alocação eficiente, controle automatizado e posterior monitoramento da performance da rede são cruciais para melhorar a eficiência e confiabilidade das Redes Ópticas Elásticas.
 
 ## 5. Tópicos Avançados e Tendências
 
@@ -115,6 +122,16 @@ Em cenários de desastres ou cortes múltiplos de fibra, o uso de BVTs elástico
 
 
 ## 6. Conclusões
+
+Em conclusão, as Redes Ópticas Elásticas representam uma evolução importante das redes de comunicação por fibra óptica, pois permitem adaptar a utilização do espectro às necessidades de cada conexão. Por meio de tecnologias como OFDM e transponders de largura de banda variável, essas redes oferecem maior flexibilidade na distribuição dos recursos e possibilitam um aproveitamento mais eficiente da capacidade disponível em comparação com as arquiteturas tradicionais DWDM.
+
+No entanto, é evidente que essa flexibilidade também introduz desafios de planejamento e operação que vêm exigindo soluções cada vez mais sofisticadas. De fato, a otimização do uso da rede e o aprimoramento de sua confiabilidade são aspectos cruciais para essa tecnologia frente às crescentes demandas de comunicação por parte da sociedade.
+
+De forma concreta, vale destacar que o problema de roteamento e alocação de espectro exige a escolha de caminhos adequados e a reserva de slots que respeitem as restrições da rede, enquanto a fragmentação espectral pode dificultar o estabelecimento de novas conexões. Nesse contexto, algoritmos de otimização, mecanismos de controle automatizado e técnicas de monitoramento são fundamentais para melhorar o desempenho e a utilização dos recursos.
+
+As tendências apresentadas na seção 5 demonstram que o desenvolvimento das EONs vai além da melhoria da eficiência espectral. A expansão para múltiplas bandas e dimensões espaciais, a aplicação de aprendizado de máquina e o uso de arquiteturas de controle abertas proporcionam novas possibilidades para ampliar a capacidade e a adaptabilidade das redes. 
+
+Portanto, as Redes Ópticas Elásticas constituem uma tecnologia promissora para atender à crescente demanda por comunicação de alta capacidade. Seu futuro e evolução depende da solução de desafios como a complexidade de controle, as limitações físicas e a confiabilidade da infraestrutura.
 
 ---
 
